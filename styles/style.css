@@ -1,40 +1,113 @@
-li{list-style: none;}
-a{text-decoration: none;}
-header{
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+header {
     margin: 43px 30% 0 60px;
     display: flex;
     justify-content: space-between;
     margin-bottom: 134px;
 }
+
 .rightNav ul {
     display: flex;
-    
+
 }
-.rightNav ul li{
+
+.rightNav ul li {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
     line-height: 29px;
     color: #4B321D;
-    
+
 }
-.rightNav ul li:not(:last-child){
-     margin-right: 36px;
-} 
+
+.rightNav ul li:not(:last-child) {
+    margin-right: 36px;
+}
+
 .creating h2 {
-font-family: 'Poppins';
-font-style: normal;
-font-weight: 400;
-font-size: 80px;
-line-height: 100px;
-color: #4B321D;
-margin: 134px 30% 134px 60px ;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    margin: 134px 111px 134px 60px;
 }
-.guyLooking{
+
+.guyLooking {
     background-image: url(/img/guyLookingOnWindow.png);
     margin: 0 20px;
     height: 928px;
     background-size: 100%;
     background-repeat: no-repeat;
+    margin-bottom: 84px;
+}
+
+.emerging {
+    margin: 0 60px 90px;
+}
+
+.emerging h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    margin-bottom: 56px;
+}
+
+.seeMyWork {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B321D;
+    border: 2px solid #4B321D;
+    border-radius: 3px;
+    outline: none;
+    padding: 11px 17px 10px;
+    margin-bottom: 90px;
+}
+
+
+.double {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.double:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.double button {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #4B321D;
+    padding: 11px 17px 10px;
+    border: 2px solid #4B321D;
+    border-radius: 3px;
+
+}
+
+.double p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 38px;
+    line-height: 44px;
+    color: #4B321D;
 }
