@@ -43,7 +43,7 @@ header {
 }
 
 .guyLooking {
-    background-image: url(/img/guyLookingOnWindow.png);
+    background-image: url(img/guyLookingOnWindow.png);
     margin: 0 20px;
     height: 928px;
     background-size: 100%;
