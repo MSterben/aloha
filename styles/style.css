@@ -183,17 +183,20 @@ footer {
     display: flex;
     justify-content: space-between;
 }
-.copirating{
+
+.copirating {
     display: flex;
     flex-direction: column;
 }
-.copirating p{
+
+.copirating p {
     margin: 0;
 }
 
-.copirating span{
+.copirating span {
     justify-self: flex-end;
 }
-.full{
+
+.full {
     flex: 1 0 auto;
 }
