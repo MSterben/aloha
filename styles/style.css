@@ -90,7 +90,7 @@ header {
     flex-direction: row-reverse;
 }
 
-.double button {
+button {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -110,4 +110,90 @@ header {
     font-size: 38px;
     line-height: 44px;
     color: #4B321D;
+}
+
+.mgr {
+    margin-right: 50px;
+}
+
+.mgl {
+    margin-left: 50px;
+}
+
+.ceo {
+    height: 476px;
+    margin: 0 20px 84px;
+    background: #4B321D;
+    border-radius: 16px;
+    padding-top: 84px;
+    box-sizing: border-box;
+}
+
+.ceo h3 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #F1F1EB;
+    margin: 0 149px 45px 60px;
+    display: block;
+}
+
+.ceo p {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 26px;
+    line-height: 36px;
+    color: #F1F1EB;
+    margin: 0 0 110px 60px;
+    display: block;
+
+}
+
+.goodFit {
+    margin-left: 60px;
+    margin-bottom: 189px;
+}
+
+.goodFit h2 {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 80px;
+    line-height: 100px;
+    color: #4B321D;
+    margin: 0 0 56px;
+}
+
+footer {
+    margin: 0 60px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #4B321D;
+}
+
+.sociality {
+    display: flex;
+    justify-content: space-between;
+}
+.copirating{
+    display: flex;
+    flex-direction: column;
+}
+.copirating p{
+    margin: 0;
+}
+
+.copirating span{
+    justify-self: flex-end;
+}
+.full{
+    flex: 1 0 auto;
 }
